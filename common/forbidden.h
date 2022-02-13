@@ -387,10 +387,12 @@
 
 #endif // FORBIDDEN_SYMBOL_EXCEPTION_ctype_h
 
+/*
 #ifndef FORBIDDEN_SYMBOL_EXCEPTION_mkdir
 #undef mkdir
 #define mkdir(a,b)	FORBIDDEN_look_at_common_forbidden_h_for_more_info SYMBOL !%*
 #endif
+*/
 
 /*
 #ifndef FORBIDDEN_SYMBOL_EXCEPTION_setlocale
